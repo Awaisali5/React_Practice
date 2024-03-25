@@ -1,0 +1,55 @@
+**
+Component are like function that are reusable
+component ko diff jagah invoke|render|reuse kr sakty!
+component:individual piece of re-usable code 
+hierarchy of component to form UI
+**
+JSX (JavaScript XML) :it let us use html with javascript but it not the actually html. 
+Babel convert jsx code into pure js
+
+**
+to create react app with vite@latest to create the react app
+Npm install (to install node package) 
+
+**
+App Structure 
+
+src : main functionailty of the app 
+app component is the parent of all the components
+
+index.index main page of the app -> main element which contain the root element and script with is connect 
+
+main script: is use to render the app component in the root 
+
+**Component **
+component is the reusable and independent piece of code! writing component is like writing the function | class 
+
+Render : can be treat as the html tag 
+
+**Writing Markup in Jsx *
+1- Return a single root element : wrap it into one root container or div
+2- mostly in camelCase 
+3-close all the tags <a /> : Babel looks for the closing tag
+
+**React Fragment * : it lets to add a list of children without adding extra nodes to the DOM  <> </> to avoid the div ! extra nodes
+like div create na ho tab hum react fragment use kr sakty hai 
+
+
+JSX with curly bracket : {} to write the pure javascript logic into the JSX 
+
+
+**part 2 **
+React Props : props(property | argument )are the information that you pass to a JSX tag 
+information pass kr sakty hai for the component through props 
+props return the object 
+
+**Passing Array as a props**
+Array mai individual items print hoty hai 
+object kay case mai direct render nahi krwa sakty we can render individual items with key 
+we pass array and object directly into the props value 
+
+**Rending the Array **
+We have to convert each item in the list into a list item 
+2 method 
+1-Send array of element
+2-wrap into the array using map 
