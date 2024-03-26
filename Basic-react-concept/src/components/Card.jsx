@@ -7,13 +7,13 @@ function Card({ title = "React", Description = "lorem", locations}) {
       <img src="vite.svg" alt="some img" className="card-img" />
       <h1>{title}</h1>
       <p className="description">{Description}</p>
-      {locations}  
-{/* 
+      {/* {locations}   */}
+
       <p>
         {locations.map((location)=>{
-          <li>{location}</li> this code is not working it displau map is not define
+         return  <li>{location}</li> 
         })}
-      </p> */}
+      </p>
     
         
 

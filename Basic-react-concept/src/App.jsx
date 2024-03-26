@@ -1,5 +1,7 @@
 import "./App.css";
 import Cards from "./components/Cards"
+import ProductTab from "./components/ProductTab";
+import ItemList from "./components/ListItem";
 
 
 // function Greeting(){
@@ -10,7 +12,7 @@ import Cards from "./components/Cards"
 //     </>
 //   )
 // }
-let name="Awais Ali";
+
 
 function App() {
   return (
@@ -18,13 +20,15 @@ function App() {
      <button>Start React part 2 </button>
      <Cards />
      
+     <div className="products">
+      <ProductTab />
+      <ItemList />
+     </div>
+
     
 
-      
-
-
-     
     </div>
+    
   );
 }
 
