@@ -1,8 +1,17 @@
 import "./App.css";
+import "./input.css"
 import Cards from "./components/Cards"
 import ProductTab from "./components/ProductTab";
 import ItemList from "./components/ListItem";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
+import Home from "../src/components/Router/Home/Home"
+import Footer from "./components/Router/Footer/Footer"
+import Header from "./components/Router/Header/Header"
+import Contact from "./components/Router/Contact/Contact"
 
 // function Greeting(){
 //   return (
@@ -15,17 +24,37 @@ import ItemList from "./components/ListItem";
 
 
 function App() {
+
+  // initilaze the Browser Router 
+  const Router= createBrowserRouter 
+  ([
+
+    {
+      path: "/",
+      element: <Home />
+    },
+    {
+      path: "/",
+      element: <Header />
+    },
+    {
+      path: "/",
+      element: <Contact />
+    },
+
+    {
+      path: "/",
+      element: <Footer />
+    },
+
+  ])
   return (
     <div>
-     <button>Start React part 2 </button>
-     <Cards />
      
-     <div className="products">
-      <ProductTab />
-      <ItemList />
-     </div>
 
-    
+  <h2 className="bg-"> React Routes</h2>
+
+  <RouterProvider router={Router } />
 
     </div>
     

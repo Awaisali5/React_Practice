@@ -1,0 +1,39 @@
+React Route:
+1- routing refers to the process of navigating between different pages without triggering a full page reload. 
+The application initially loads a single HTML page. Then, it dynamically renders different components based on user interaction.
+
+2-React Does not have routing ability. you have to implement by using third party library 
+
+React Router Dom library is use to implement the routing in react as it provide the client side rendering
+
+PathConstants: An object that contains all page routes.
+
+3-**routes: An array that includes the mappings between a route string and the page components
+
+4-React lazy() fn allow us to render the larger portion into smallar portion and and render when
+that pieace of info is required 
+To make lazy-loaded components work, you need to render them through the <Suspense> component. Update <Layout> accordingly: 
+
+5-Use fallback() which will show when the page is loading in the lazy load 
+
+
+
+**Link Tag* : It is use in place of a (anchar tag: which refresh the page when click on it) alternative of a it prevent to page re-loaded
+*NavLink* provide addtional thing : to use the call back function and variable in it to manipulate the thing
+
+
+Path: Path where you are or willing to re-direct the user
+element : name of the path like Home , contact us etc
+
+Loader: to direct call the the fetch! fetch data and store it into cache 
+
+
+RouterProvider is the wrapper that wrap the whole routing thing together 
+
+CreateBrowerRouter: It is use to create the Brower Router in the react js
+2- method
+1-using the CreateBrowerRouter and pass the array of object
+2-or CreateRouteFromElement  to create the rool 
+
+Layout is use to define how the route are being nested togethe
+
