@@ -1,0 +1,40 @@
+Q1 : Props vs State:
+Both states and props are use to manage data in React Component 
+
+State: State are use to manage the internal data of the Component
+2-it is an object which store data that are change within Component
+3- when state changes, React re-render the updated data 
+4-it is modified within the status it is being declare and cannot access by other component like props
+5-The state can be initialized in the constructor of a component, and it can be updated using the setState() method.
+
+props(property) is use to pass the data to the child component from the parent component
+1-props are immutable(only read) and child component cannot modify it 
+2-props are pass like attritube and can access using this keyword e.g this.props or this.name 
+3-it is useful when the props when it receive data from the parent component 
+
+
+Q2:
+Use conditional rendering: 
+Conditional rendering can help you control the display of your components based on certain conditions. 
+This can be helpful for debugging
+like if the condition is true apply certain rule and if the condition is false apply other rule
+helpful in case of login page or session maintaining 
+
+Q3: Composition in React Js?
+Composition is use to combine the smallar, reusable component together to form a large, complex component
+it involves building an application by breaking it down into smaller, more manageable parts and assembling them together like building blocks.
+
+Here is another concept Nested component which help to form a hierarchy level of smallar component 
+to make large and functional component like cards , productlist etc 
+
+
+In ReactJS, Component Composition refers to the practice of creating reusable UI components by combining smaller components together. 
+This allows developers to break down complex UIs into smaller,
+more manageable parts, which can be easily reused across different parts of the application.
+
+
+Q4: List and Key (render through Map function):
+List and key are use to render data as the list of item such as array of object, string , number 
+key are the unique identifer with is associated with each item in the list 
+
+
