@@ -35,5 +35,28 @@ CreateBrowerRouter: It is use to create the Brower Router in the react js
 1-using the CreateBrowerRouter and pass the array of object
 2-or CreateRouteFromElement  to create the rool 
 
-Layout is use to define how the route are being nested togethe
+Layout is use to define how the route are being nested together
 
+
+**Hash Router** Store the url in the form of hash and we use it when we are using the shared resource or when we don't want to change the url 
+
+**History Router** : it is unstable and it is use to store history of url
+
+**Memory Router: it is best use case when you don't want to run on Brower and use it for the testing purpose 
+
+
+*Static* To render the component on the server! Server side render
+
+**native Router: to use it for the React Rative 
+
+
+**Dynamic routing :
+to add some parameter with route url like /user:id to send to a specfice id
+
+#useParames() hook let to specfice that dynamic router functionailty : it will return the object 
+
+UseNagivate is useful when you want to redirect user from unvalid url to home page
+
+useparams() to store the data from the url like id=343 etc
+
+useSearchParam to get the url data! how usestate work

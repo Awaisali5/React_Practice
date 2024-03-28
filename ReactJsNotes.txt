@@ -53,3 +53,16 @@ We have to convert each item in the list into a list item
 2 method 
 1-Send array of element
 2-wrap into the array using map 
+
+**Conditonal** 
+Adding element basic of some condition 
+terney operator: if condition ? if true : if else 
+e.g age >=18 : "Adult" : "Kid"
+we can write condition with AND operator as well e.g if condition true && result(incase of true)
+
+**Dynamic Component Styling ** 
+
+
+r
+
+
