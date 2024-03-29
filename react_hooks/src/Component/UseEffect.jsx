@@ -9,6 +9,7 @@ export default function UseEffect() {
     UseWindowListerner('pointermove', (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
     });
+    
   return (
 
     <>
