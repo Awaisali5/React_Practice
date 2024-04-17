@@ -13,7 +13,7 @@ export default function UseEffect() {
   return (
 
     <>
-    <div>UseEffect</div>
+    <div> </div>
 
     <div style={{
       position: 'absolute',

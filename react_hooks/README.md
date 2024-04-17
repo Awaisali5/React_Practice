@@ -86,3 +86,31 @@ After componentWillUnmount() is called, the component is removed from the DOM an
 
 Noted: "It's important to note that once a component is unmounted, it cannot be mounted again. If you need to render the component again, you will need to create a new instance of it."
 
+
+#UseRef Hook:
+useRef is a hook in React that returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component.
+When to use it?: 
+
+It's commonly used when you need to keep track of a value across renders without causing a re-render when the value changes.
+
+
+
+
+#UseContext Hook:
+
+useContext is a hook that allows you to access the value of a context within a function component.
+When to use it?:
+ It's used when you need to access global data (state, functions, etc.) across multiple components without having to pass props manually at each level
+
+
+
+#useMemo Hook:
+useMemo is a hook that memoizes the result of a function so that the function is only re-executed when one of its dependencies changes.
+When to use it?: It's useful for optimizing performance by avoiding unnecessary re-computation of values in components.
+
+
+
+#UseReducer Hook:
+useReducer is a hook that is an alternative to useState. It accepts a reducer function along with an initial state and returns the current state paired with a dispatch method.
+When to use it?: It's used when the state logic is complex and involves multiple sub-values or when the next state depends on the previous one.
+
