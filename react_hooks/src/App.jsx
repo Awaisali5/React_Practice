@@ -2,6 +2,7 @@ import UseStateExe from "./Component/UseStateExe";
 import UseEffect from "./Component/UseEffect";
 import UseRefExe from "./Component/UseRefExe";
 import UseReducerExe from "./Component/UseReducerExe";
+import RegisterForm from "./Component/form_validation/RegisterForm";
 
 
 
@@ -21,7 +22,10 @@ function App() {
 
 {/* <UseEffect /> */}
 {/* <UseRefExe /> */}
-<UseReducerExe />
+{/* <UseReducerExe /> */}
+<RegisterForm/>
+
+
 
     </>
   )
